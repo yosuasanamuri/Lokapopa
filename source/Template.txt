@@ -1,20 +1,20 @@
 COLOR PALLETE:
-- Primary 100: FFC260
-- Primary 90: DDA853
-- Primary 80: BD8F47
+- Primary 100: FF3F46
+- Primary 90: ED1C24
+- Primary 80: A9161C
 
-- Secondary 100: 235570
-- Secondary 90: 183B4E
-- Secondary 80: 0E232E
+- Secondary 100: 3587D6
+- Secondary 90: 235789
+- Secondary 80: 13304B
 
-- Tertiary 100: FFF8E5
-- Tertiary 90: F5EEDC
-- Tertiary 80: D4CEBE
+- Tertiary 100: FFF3A0
+- Tertiary 90: F1D302
+- Tertiary 80: AE9902
 
-- Grey 20: E8EBEA
-- Grey 40: C2C4C4
-- Grey 60: 9C9E9D
-- Grey 80: 767877
-- Grey 100: 373838
+- Grey 20: FDFFFC
+- Grey 40: CFD0CE
+- Grey 60: 747473
+- Grey 80: 454645
+- Grey 100: 141514
 
 - Accent: FF6060
