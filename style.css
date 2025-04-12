@@ -1,5 +1,5 @@
 body {
-    background-color: #FFF3A0;
+    background-color: #A9161C;
     margin: 10px;
 }
 
@@ -8,10 +8,11 @@ body {
     height: 100px;
     display: flex;
     justify-content: space-between;
-    border-right: 2px solid #FF3F46;
-    border-left: 2px solid #FF3F46;
-    border-bottom: 2px solid #FF3F46;
+    border-right: 2px solid #13304B;
+    border-left: 2px solid #13304B;
+    border-bottom: 2px solid #13304B;
     border-radius: 10px;
+    background-color: #F1D302;
 }
 
 .logo {
@@ -31,7 +32,7 @@ body {
     justify-content: center;
     padding-top: 20px;
     gap: 30px;
-    color: #FF3F46;
+    color: #13304B;
     align-items: center;
 }
 
@@ -43,10 +44,10 @@ body {
 
 p {
     font-family: "Plus Jakarta Sans", sans-serif;
-    background-color: #FF3F46;
+    background-color: #13304B;
     padding: 5px 10px;
     border-radius: 30px;
-    color: #0E232E;
+    color: #FFF3A0;
 }
 
 .filters {
