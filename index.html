@@ -9,29 +9,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Lokapopa</title>
 </head>
-<body>
-    <main class="main">
-        <div class="container">
-            <img class="logo" src="./source/LokaPopa logo.svg" alt="Lokapopa logo">
-            <img class="menu-bar" src="./source/bar-menu-blue.svg" alt="menu-bar">
-        </div>
-
-        <!-- JUMBOTRON -->
-        <main id="jumbotron">
-            <div class="jumbotron">
-                <p class="features">Live & Loud</p>
-                <p class="features">Jajan & Jalan</p>
-                <p class="features">Expo & Explore</p>
-                <p class="features">Run & Roll</p>
-                <p class="features">Level Up</p>
-                <img class="filters" src="./source/filter-blue.svg" alt="Filter Icon">
-             </div>
-             
-        </main>
-         
-    </main>
+<body class="bg-[#A9161C]">
+    <div id="main" class="w-screen h-screen pt-5">
+        <section id="navbar" class="flex bg-[#FFF3A0] rounded-full w-screen h-24 justify-between px-10 items-center">
+            <img id="logo-image" class="w-48" src="./source/LokaPopa logo.svg" alt="Lokapopa Logo">
+            <img id="logo-bar" class="size-8" src="/./source/bar-menu-blue.svg" alt="Menu Bars">
+        </section>
+        <section id="hero" class="flex justify-center pt-5 gap-5 pb-1">
+            <div id="item" class="basis-auto bg-[#13304B] text-[#F1D302] px-5 py-1 rounded-full">Live&Loud</div>
+            <div id="item" class="basis-auto bg-[#13304B] text-[#F1D302] px-5 py-1 rounded-full">Jajan&Jalan</div>
+            <div id="item" class="basis-auto bg-[#13304B] text-[#F1D302] px-5 py-1 rounded-full">Expo&Explore</div>
+            <div id="item" class="basis-auto bg-[#13304B] text-[#F1D302] px-5 py-1 rounded-full">Run&Roll</div>
+            <div id="item" class="basis-auto bg-[#13304B] text-[#F1D302] px-5 py-1 rounded-full">Level Up</div>
+        </section>
+        <section class="flex justify-center">
+            <hr id="devider" class="w-90 h-1 rounded-full bg-[#F1D302]">
+        </section>
+    </div>
 
 
 
