@@ -49,6 +49,10 @@ p {
     color: #0E232E;
 }
 
+.filters {
+    width: 30px;
+}
+
 @media (max-width: 600px) {
     .container {
         width: 100%;
