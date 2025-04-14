@@ -9,40 +9,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Lokapopa</title>
 </head>
-<body class="bg-[#FFF3A0]">
-    <div id="main" class="flex flex-col justify-center h-screen pt-5">
-        <section id="navbar" class="flex bg-[#FFF3A0] rounded-full w-screen h-24 justify-between px-10 items-center">
-            <img id="logo-image" class="w-48" src="./source/LokaPopa logo.svg" alt="Lokapopa Logo">
-            <div id="feature-container" class="flex gap-4">
-                <div id="item" class="basis-auto text-[#13304B] px-5 py-1 inset-shadow-sm inset-shadow-[#454645]/10 rounded-full">Live&Loud</div>
-                <div id="item" class="basis-auto text-[#13304B] px-5 py-1 inset-shadow-sm inset-shadow-[#454645]/10 rounded-full">Jajan&Jalan</div>
-                <div id="item" class="basis-auto text-[#13304B] px-5 py-1 inset-shadow-sm inset-shadow-[#454645]/10 rounded-full">Expo&Explore</div>
-                <div id="item" class="basis-auto text-[#13304B] px-5 py-1 inset-shadow-sm inset-shadow-[#454645]/10 rounded-full">Run&Roll</div>
-                <div id="item" class="basis-auto text-[#13304B] px-5 py-1 inset-shadow-sm inset-shadow-[#454645]/10 rounded-full">Level Up</div>
+<body class="bg-[#FFF3A0] w-screen h-screen">
+    <section class="w-full h-full top-container grid grid-cols-12 grid-rows-5 gap-2 px-5 pt-5">
+        <div class="navbar w-3/4 h-full grid grid-rows-5 rounded-2xl bg-[#13304B] row-start-1 row-end-6 items-center place-items-center gap-2">
+            <img class="pb-2 w-10" src="./source/logo-lokapopa.svg" alt="Logo Lokapopa">
+            <img class="" width="30" height="30" src="https://img.icons8.com/fluency-systems-regular/48/a9262c/home--v1.png" alt="home--v1"/>
+            <img class="" width="30" height="30" src="https://img.icons8.com/windows/32/a9262c/info.png" alt="info"/>
+            <img class="" width="30" height="30" src="https://img.icons8.com/material-outlined/24/a9262c/settings--v1.png" alt="settings--v1"/>
+            <img class="" width="30" height="30" src="https://img.icons8.com/ios/50/a9262c/phone--v1.png" alt="phone--v1"/>
+            <img class="pb-10" width="30" height="30" src="https://img.icons8.com/windows/32/a9262c/add-user-male--v1.png" alt="add-user-male--v1"/>
+        </div>
+        <div class="mid-section flex rounded-xl bg-[#696963] col-start-2 col-end-11 row-start-1 row-end-6 gap-2">
+            <div class="w-full flex justify-center">Kiri</div> <!-- INI SEBELAH KIRI-->
+            <div class="w-full h-15 flex justify-center"> <!-- INI TENGAH -->
+                <img class="w-full h-3/4 pb-1 bg-[#FFF3A0] rounded-b-lg" src="./source/lokapopa-typeface.svg" alt="Lokapopa Typeface">
             </div>
-            <img id="logo-bar" class="size-8" src="/./source/bar-menu-blue.svg" alt="Menu Bars">
-        </section>
-        <section id="hero" class="flex w-full h-9/10 justify-center gap-5">
-            <div id="jumbotron" class="w-9/10 rounded-xl h-full bg-[#A9161C] justify-center">
-                <video
-                class="w-full h-full"
-                muted
-                loop
-                autoplay="true"
-                src="./source/video-paramore.mp4">
-                </video>
+            <div class="w-full flex justify-center rounded-tl-lg"> <!-- INI SEBELAH KANAN -->
+                <p class="w-full rounded-tl-lg">Kanan</p>
             </div>
-        </section>
-    </div>
-
-
-
-
-
+        </div>
+        <div class="right-section rounded-xl bg-[#696963] col-start-11 col-end-13 row-start-1 row-end-6">Kanan</div>
+    </section>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
