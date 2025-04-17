@@ -41,3 +41,16 @@ function onPlayerStateChange(event) {
 function stopVideo() {
   player.stopVideo();
 }
+
+module.exports = {
+  purge: [],
+  theme: {
+    extend: {},
+  },
+  variants: {
+    extend: {
+      grayscale: ["hover"],
+      dropShadow: ["hover"],
+    },
+  },
+};
